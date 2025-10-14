@@ -5,8 +5,8 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   /* config options here */
   output: isProd ? 'export' : undefined,
-  basePath: isProd ? '/exilene-studio' : '',
-  assetPrefix: isProd ? '/exilene-studio/' : '',
+  basePath: isProd ? '/exilene' : '',
+  assetPrefix: isProd ? '/exilene/' : '',
   trailingSlash: true,
   images: {
     unoptimized: true,
