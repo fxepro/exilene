@@ -1,0 +1,88 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract animated gradient",
+      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageHint": "abstract gradient"
+    },
+    {
+      "id": "tech-diagram-1",
+      "description": "Network diagram for core technology",
+      "imageUrl": "https://picsum.photos/seed/tech1/600/400",
+      "imageHint": "network diagram"
+    },
+    {
+      "id": "tech-diagram-2",
+      "description": "Infographic for security architecture",
+      "imageUrl": "https://picsum.photos/seed/tech2/600/400",
+      "imageHint": "security infographic"
+    },
+    {
+      "id": "partner-logo-1",
+      "description": "Partner Company A Logo",
+      "imageUrl": "https://picsum.photos/seed/partner1/200/100",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-2",
+      "description": "Partner Company B Logo",
+      "imageUrl": "https://picsum.photos/seed/partner2/200/100",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-3",
+      "description": "Partner Company C Logo",
+      "imageUrl": "https://picsum.photos/seed/partner3/200/100",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-4",
+      "description": "Partner Company D Logo",
+      "imageUrl": "https://picsum.photos/seed/partner4/200/100",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "partner-logo-5",
+      "description": "Partner Company E Logo",
+      "imageUrl": "https://picsum.photos/seed/partner5/200/100",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "blog-post-1",
+      "description": "Featured blog post about AI",
+      "imageUrl": "https://picsum.photos/seed/blog1/600/400",
+      "imageHint": "artificial intelligence"
+    },
+    {
+      "id": "blog-post-2",
+      "description": "Featured blog post about networking",
+      "imageUrl": "https://picsum.photos/seed/blog2/600/400",
+      "imageHint": "data network"
+    },
+    {
+      "id": "blog-post-3",
+      "description": "Featured blog post about cybersecurity",
+      "imageUrl": "https://picsum.photos/seed/blog3/600/400",
+      "imageHint": "cyber security"
+    },
+    {
+      "id": "blog-post-4",
+      "description": "Blog post about future tech",
+      "imageUrl": "https://picsum.photos/seed/blog4/600/400",
+      "imageHint": "future technology"
+    },
+    {
+      "id": "blog-post-5",
+      "description": "Blog post about blockchain",
+      "imageUrl": "https://picsum.photos/seed/blog5/600/400",
+      "imageHint": "blockchain crypto"
+    },
+    {
+      "id": "blog-author",
+      "description": "Portrait of a blog author",
+      "imageUrl": "https://picsum.photos/seed/author1/40/40",
+      "imageHint": "person portrait"
+    }
+  ]
+}
