@@ -4,8 +4,8 @@ const isGithubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isGithubPages ? '/arrowbeacon' : '',
-  assetPrefix: isGithubPages ? '/arrowbeacon/' : '',
+  basePath: isGithubPages ? '/exilene' : '',
+  assetPrefix: isGithubPages ? '/exilene/' : '',
   trailingSlash: true,
   images: {
     unoptimized: true,
