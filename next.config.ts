@@ -1,42 +1,21 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: isProd ? 'export' : undefined,
-  basePath: isProd ? '/exilene' : '',
-  assetPrefix: isProd ? '/exilene/' : '',
+  output: 'export',
+  basePath: isGithubPages ? '/arrowbeacon' : '',
+  assetPrefix: isGithubPages ? '/arrowbeacon/' : '',
   trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**',
-      },
+      { protocol: 'https', hostname: 'placehold.co', pathname: '/**' },
+      { protocol: 'https', hostname: 'images.unsplash.com', pathname: '/**' },
+      { protocol: 'https', hostname: 'picsum.photos', pathname: '/**' },
     ],
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 };
 
 export default nextConfig;
+
