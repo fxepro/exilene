@@ -12,7 +12,14 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 
-function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }) {
+interface AnimatedCounterProps {
+  end: number;
+  duration?: number;
+  suffix?: string;
+  decimals?: number;
+}
+
+function AnimatedCounter({ end, duration = 2000, suffix = "", decimals = 0 }: AnimatedCounterProps) {
   const [count, setCount] = useState(0)
   const ref = useRef<HTMLSpanElement>(null)
   const [hasAnimated, setHasAnimated] = useState(false)

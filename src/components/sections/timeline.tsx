@@ -5,7 +5,13 @@ import { Building, Milestone, Users, Network } from "lucide-react"
 
 import { timelineEvents } from "@/lib/data"
 
-function AnimatedCounter({ end, duration = 2000, suffix = "" }) {
+interface AnimatedCounterProps {
+  end: number;
+  duration?: number;
+  suffix?: string;
+}
+
+function AnimatedCounter({ end, duration = 2000, suffix = "" }: AnimatedCounterProps) {
   const [count, setCount] = useState(0)
   const ref = useRef<HTMLSpanElement>(null)
   const [hasAnimated, setHasAnimated] = useState(false)
